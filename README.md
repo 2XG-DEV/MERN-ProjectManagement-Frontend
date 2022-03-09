@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](./screenshot.png)
+![Screenshot](https://github.com/2XG-DEV/MERN-ProjectManagement-Frontend/blob/master/screenshot.PNG)
 
 ### Links
 
