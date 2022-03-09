@@ -17,7 +17,7 @@ const SignUp = () => {
   const location = useLocation();
 
   const userLogin = useSelector((state) => state.userLogin);
-  const { loading, error, userInfo } = userLogin;
+  const { userInfo } = userLogin;
 
   const redirect = location.search ? location.search.split("=")[1] : " ";
   console.log(redirect);
@@ -44,7 +44,6 @@ const SignUp = () => {
             Email :
           </label>
           <input
-            type="text"
             className="signup__form__email"
             id="email"
             type="email"
@@ -61,7 +60,6 @@ const SignUp = () => {
             type="text"
             className="signup__form__username"
             id="username"
-            type="text"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
           />
@@ -75,7 +73,6 @@ const SignUp = () => {
             type="text"
             className="signup__form__fullname"
             id="fullname"
-            type="text"
             value={fullname}
             onChange={(e) => setFullname(e.target.value)}
           />
@@ -86,7 +83,6 @@ const SignUp = () => {
             Password :
           </label>
           <input
-            type="text"
             className="signup__form__password"
             id="password"
             type="password"
@@ -103,7 +99,6 @@ const SignUp = () => {
             Confirm Password :
           </label>
           <input
-            type="text"
             className="signup__form__confirmpassword"
             id="confirmpassword"
             type="password"

@@ -1,14 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import {
-  Body1,
-  Body2,
-  Body3,
-  Heading2,
-  Heading3,
-  Heading4,
-} from "../../Typography";
+import { Body2, Body3, Heading4 } from "../../Typography";
 import Commentbox from "../Commentbox/Commentbox";
 import "./Comment.css";
 
@@ -33,7 +26,7 @@ const Comment = ({ replyingTo, comment }) => {
       setUserDetails(response);
     };
     getDetails();
-  }, []);
+  }, [comment.username, userInfo.token]);
   return (
     <div className="comment">
       <div className="comment__header">

@@ -15,10 +15,10 @@ const Toolbar = () => {
   const dispatch = useDispatch();
   const handleChange = (e) => {
     console.log(e.target.value);
-    if (e.target.value == "sort-com-up") dispatch(sortComDeasc());
-    if (e.target.value == "sort-com-down") dispatch(sortComAsc());
-    if (e.target.value == "sort-upv-up") dispatch(sortUpvDeasc());
-    if (e.target.value == "sort-upv-down") dispatch(sortUpvAsc());
+    if (e.target.value === "sort-com-up") dispatch(sortComDeasc());
+    if (e.target.value === "sort-com-down") dispatch(sortComAsc());
+    if (e.target.value === "sort-upv-up") dispatch(sortUpvDeasc());
+    if (e.target.value === "sort-upv-down") dispatch(sortUpvAsc());
   };
   return (
     <div className="toolbar">

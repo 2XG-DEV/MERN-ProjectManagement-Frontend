@@ -14,7 +14,7 @@ const Login = () => {
   const nav = useNavigate();
 
   const userLogin = useSelector((state) => state.userLogin);
-  const { loading, error, userInfo } = userLogin;
+  const { userInfo } = userLogin;
 
   const redirect = location.search ? location.search.split("=")[1] : " ";
   console.log(redirect);
@@ -41,7 +41,6 @@ const Login = () => {
             Email :
           </label>
           <input
-            type="text"
             className="login__form__email"
             id="email"
             type="email"
@@ -55,7 +54,6 @@ const Login = () => {
             Password :
           </label>
           <input
-            type="text"
             className="login__form__password"
             id="password"
             type="password"

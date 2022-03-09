@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Body1, Body2, Body3 } from "../../Typography";
+import { Body2, Body3 } from "../../Typography";
 import "./Feedback.css";
 
 const Feedback = ({ req }) => {
