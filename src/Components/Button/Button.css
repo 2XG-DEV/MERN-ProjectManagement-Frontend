@@ -1,0 +1,22 @@
+.myButton {
+  padding: 0.9rem 1.7rem;
+
+  border: none;
+  border-radius: 0.7rem;
+  cursor: pointer;
+  display: block;
+
+  transition: opacity 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.myButton:hover {
+  opacity: 0.8;
+}
+
+.myButton:hover .hover-underline {
+  text-decoration: underline;
+}

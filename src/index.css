@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --purple: hsl(282, 83%, 52%);
+  --blue: hsl(230, 76%, 59%);
+  --v-deep-blue: hsl(230, 31%, 31%);
+  --white: hsl(0, 0%, 100%);
+
+  --blue-gray: #f2f4ff;
+  --gray: #f7f8fd;
+  --deep-blue: #3a4374;
+  --gray-blue: #647196;
+
+  --orange: #f49f85;
+  --bright-blue: #62bcfa;
+}
+
+.color-white {
+  color: var(--white);
+}
+
+.color-blue-gray {
+  color: var(--blue-gray);
+}
+
+.background-purple {
+  background: var(--purple);
+}
+
+.background-blue {
+  background: var(--blue);
+}
+
+.background-deep-blue {
+  background: var(--deep-blue);
+}
+
+.background-red {
+  background: #d73737;
+}
+
+.background-transparent {
+  background: transparent;
+}
+
+.color-gray-blue {
+  color: var(--gray-blue);
+}
+
+.opacity-1 {
+  opacity: 0.75;
+}
+
+body {
+  background: var(--blue-gray);
+  font-family: Jost;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+input {
+  font-family: inherit;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}

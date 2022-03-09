@@ -1,0 +1,39 @@
+.comment {
+  margin: 2rem 0;
+}
+
+.comment__header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.comment__header img {
+  border-radius: 100%;
+  width: 3rem;
+}
+
+.replies {
+  width: 92%;
+  margin-left: auto;
+  border-left: 1px solid var(--blue-gray);
+  padding-left: 1rem;
+}
+
+.comment__replyingto {
+  color: var(--purple);
+  font-weight: bold;
+}
+
+.reply-btn {
+  margin-left: auto;
+  border: none;
+  background: transparent;
+  color: var(--blue);
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 15x;
+  cursor: pointer;
+  padding: 1rem;
+}

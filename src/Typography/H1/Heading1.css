@@ -1,0 +1,15 @@
+.heading1 {
+  font-family: Jost;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 35px;
+  /* identical to box height */
+
+  letter-spacing: -0.333333px;
+
+  color: var(--deep-blue);
+
+  mix-blend-mode: normal;
+  opacity: 0.96;
+}

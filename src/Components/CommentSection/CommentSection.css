@@ -1,0 +1,7 @@
+.comment-section {
+  background: var(--white);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  max-width: 400px;
+  margin: 1rem auto;
+}

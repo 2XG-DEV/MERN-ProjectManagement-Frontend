@@ -1,0 +1,27 @@
+.commentbox {
+  background-color: var(--white);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  max-width: 400px;
+  margin: 1rem auto;
+}
+
+.commentbox__input {
+  padding: 1rem;
+  width: 100%;
+  resize: none;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: var(--gray);
+
+  font-family: inherit;
+  margin-top: 2rem;
+}
+
+.commentbox__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}

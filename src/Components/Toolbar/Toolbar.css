@@ -1,0 +1,22 @@
+.toolbar {
+  background-color: var(--v-deep-blue);
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+
+.toolbar__sorter {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.toolbar__select {
+  background: transparent;
+  border: none;
+  color: var(--gray-blue);
+  border-radius: 0.5rem;
+}
