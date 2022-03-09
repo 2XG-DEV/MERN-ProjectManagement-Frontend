@@ -37,11 +37,11 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](./screenshot.jpg)
+![Screenshot](./screenshot.png)
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://mern-feedbacks.netlify.app/login)
+- Live Site URL: [MERN Tasks](https://mern-feedbacks.netlify.app/login)
 
 ## My process
 
