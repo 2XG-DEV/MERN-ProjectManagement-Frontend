@@ -41,7 +41,12 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [MERN Tasks](https://mern-feedbacks.netlify.app/login)
+- Live Site URL: [MERN Tasks](https://mern-feedbacks.netlify.app)
+
+If you wish to use the live application either sign up with any made up credentials or use the following details:
+
+- email : thomas@doubleg.com
+- password : peakyblinder
 
 ## My process
 
